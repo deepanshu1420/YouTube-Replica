@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Extend or override default colors */
+  --color-neutral-200: #e5e5e5;
+  --color-neutral-950: #0a0a0a;
+
+  /* Add your own brand palette */
+  --color-brand-light: #3AB0FF;
+  --color-brand: #1E90FF;   /* DEFAULT */
+  --color-brand-dark: #0057B7;
+}
+
+
+
+
+

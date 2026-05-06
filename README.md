@@ -15,18 +15,20 @@
 
 **🌐 Live Demo :** [see youtube replica!](https://youtubereplicaa.vercel.app/)
 
-## 🎨 UI/UX
+## 🎨 UI/UX Highlights
 
-- 📺 Clean and modern YouTube-inspired interface  
-- 🌗 Full Light / Dark mode support  
-- 📱 Fully responsive design for mobile, tablet, and desktop  
-- ⚡ Smooth scrolling and interactive UI experience  
-- 🧭 Sticky navigation and responsive layout structure  
-- 🏷️ Scrollable category pills with smooth transitions  
-- 🎬 Interactive video cards with hover effects  
-- 🔍 Responsive search bar optimized for all screen sizes  
-- 📌 Mobile bottom navigation similar to YouTube app  
-- 🎯 Focused on accessibility, usability, and clean user experience  
+✨ Crafted to closely recreate the modern YouTube browsing experience with a clean, responsive, and interactive interface.
+
+- 📺 Modern YouTube-inspired UI with polished layouts  
+- 🌗 Seamless Light / Dark theme switching  
+- 📱 Responsive experience across mobile, tablet, and desktop  
+- ⚡ Smooth scrolling and fluid user interactions  
+- 🧭 Sticky navigation for better accessibility and usability  
+- 🏷️ Interactive category pills with horizontal scrolling  
+- 🎬 Video cards with hover animations and rich metadata  
+- 🔍 Adaptive search bar optimized for different screen sizes  
+- 📌 Mobile bottom navigation inspired by the YouTube app  
+- 🎯 Clean spacing, accessibility, and user-focused design   
 
 ## ✨ Features
 
@@ -48,6 +50,17 @@
 - Sticky header with responsive search functionality  
 - Optimized layout and spacing for a native app-like experience  
 - Mobile-friendly UI with smooth responsiveness  
+
+## 🛠️ Tech Stack Used
+
+- 🎨 Frontend: React.js, TypeScript, Tailwind CSS, HTML5, CSS3  
+- ⚙️ UI Components & Icons: Lucide React  
+- 🌗 Styling & Theming: Tailwind Dark Mode  
+- 📱 Responsive Design: Mobile-First Layout  
+- ⚡ Build Tool: Vite  
+- 🧹 Code Quality: ESLint  
+- 🔧 Version Control: Git & GitHub  
+- 🚀 Deployment: Vercel  
 
 ## 📸 Screenshots
 

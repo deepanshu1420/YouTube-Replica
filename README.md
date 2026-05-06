@@ -21,20 +21,20 @@
 
 - 📺 Modern YouTube-inspired UI with polished layouts  
 - 🌗 Seamless Light / Dark theme switching  
-- 📱 Responsive experience across mobile, tablet, and desktop  
+- 📱 Responsive experience across mobile, tablet and desktop  
 - ⚡ Smooth scrolling and fluid user interactions  
 - 🧭 Sticky navigation for better accessibility and usability  
 - 🏷️ Interactive category pills with horizontal scrolling  
 - 🎬 Video cards with hover animations and rich metadata  
 - 🔍 Adaptive search bar optimized for different screen sizes  
 - 📌 Mobile bottom navigation inspired by the YouTube app  
-- 🎯 Clean spacing, accessibility, and user-focused design   
+- 🎯 Clean spacing, accessibility and user-focused design   
 
 ## ✨ Features
 
 ### 📺 Dynamic Video Feed
-- Responsive video grid for mobile, tablet, and desktop screens  
-- Reusable `VideoPill` components with thumbnails, avatars, titles, and metadata  
+- Responsive video grid for mobile, tablet and desktop screens  
+- Reusable `VideoPill` components with thumbnails, avatars, titles and metadata  
 - Smooth hover effects and interactive UI elements  
 - Clean YouTube-inspired video browsing experience  
 

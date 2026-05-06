@@ -11,8 +11,6 @@
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-## 🚀 Introduction
-
 **YouTube Replica** is a modern, highly responsive frontend clone of the YouTube user interface. Built with performance and user experience in mind, this project demonstrates advanced component composition, state management, and modern styling techniques.
 
 **🌐 Live Demo :** [see youtube replica!](https://youtubereplicaa.vercel.app/)

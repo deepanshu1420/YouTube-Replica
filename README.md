@@ -1,73 +1,96 @@
-# React + TypeScript + Vite
+# YouTube Replica ▶️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-Currently, two official plugins are available:
+## 🚀 Introduction
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**YouTube Replica** is a modern, highly responsive frontend clone of the YouTube user interface. Built with performance and user experience in mind, this project demonstrates advanced component composition, state management, and modern styling techniques.
 
-## React Compiler
+**🌐 Live Demo :** [see youtube replica!](https://youtubereplicaa.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎨 UI/UX
 
-## Expanding the ESLint configuration
+- 📺 Clean and modern YouTube-inspired interface  
+- 🌗 Full Light / Dark mode support  
+- 📱 Fully responsive design for mobile, tablet, and desktop  
+- ⚡ Smooth scrolling and interactive UI experience  
+- 🧭 Sticky navigation and responsive layout structure  
+- 🏷️ Scrollable category pills with smooth transitions  
+- 🎬 Interactive video cards with hover effects  
+- 🔍 Responsive search bar optimized for all screen sizes  
+- 📌 Mobile bottom navigation similar to YouTube app  
+- 🎯 Focused on accessibility, usability, and clean user experience  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Features
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### 📺 Dynamic Video Feed
+- Responsive video grid for mobile, tablet, and desktop screens  
+- Reusable `VideoPill` components with thumbnails, avatars, titles, and metadata  
+- Smooth hover effects and interactive UI elements  
+- Clean YouTube-inspired video browsing experience  
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### 🏷️ Interactive Category Navigation
+- Scrollable category pills for content filtering  
+- Smooth horizontal scrolling experience  
+- Active category highlighting for better navigation  
+- Responsive category layout optimized for all devices  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 🌗 Adaptive Theming & Layout
+- Full Light / Dark mode support  
+- Responsive sidebar and mobile bottom navigation  
+- Sticky header with responsive search functionality  
+- Optimized layout and spacing for a native app-like experience  
+- Mobile-friendly UI with smooth responsiveness  
+
+## 📸 Screenshots
+
+### 🖥️ User Interface
+![User Interface](./screenshots/ui.png)
+*Modern YouTube-inspired interface with clean layouts, dark/light theme toggle and interactive components.*
+
+### 📱 Responsive Design
+![Responsive Design](./screenshots/responsive.png)
+*Fully responsive design optimized for mobile, tablet and desktop screens.*
+
+## 🛠️ Setup and Installation
+
+Follow these steps to run the project locally on your machine:
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/deepanshu1420/YouTube-Replica.git
+cd YouTube-Replica
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 2️⃣ Install Dependencies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Make sure you have **Node.js** installed, then run:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
 ```
+
+### 3️⃣ Start Development Server
+
+```bash
+npm run dev
+```
+
+### 4️⃣ Open the Application
+
+Open your browser and visit:
+
+```bash
+http://localhost:5173
+```
+
+The app should now be running locally 🚀

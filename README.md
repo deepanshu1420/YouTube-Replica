@@ -17,7 +17,7 @@
 
 ## 🎨 UI/UX Highlights
 
-✨ Crafted to closely recreate the modern YouTube browsing experience with a clean, responsive, and interactive interface.
+✨ Crafted to closely recreate the modern YouTube browsing experience with a clean, responsive and interactive interface.
 
 - 📺 Modern YouTube-inspired UI with polished layouts  
 - 🌗 Seamless Light / Dark theme switching  

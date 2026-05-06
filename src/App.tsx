@@ -7,7 +7,7 @@ export default function App() {
 
   return (
     <div className={isDark ? "dark" : ""}>
-      <div className="min-h-screenbg-white dark:bg-[#0f0f0f] text-gray-900 dark:text-white">
+      <div className="min-h-dvh overflow-x-hidden bg-white dark:bg-[#0f0f0f] text-gray-900 dark:text-white">
         <PageHeader isDark={isDark} toggleDark={() => setIsDark((d) => !d)} />
         <BodyHeader />
       </div>

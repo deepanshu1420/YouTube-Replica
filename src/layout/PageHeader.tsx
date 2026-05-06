@@ -84,7 +84,7 @@ export default function PageHeader({ isDark, toggleDark }: PageHeaderProps) {
           <Button
             variant="default-rounded"
             size="md"
-            className="flex items-center dark:bg-[#272727] dark:text-white dark:hover:bg-[#3f3f3f]"
+            className="hidden md:flex items-center dark:bg-[#272727] dark:text-white dark:hover:bg-[#3f3f3f]"
           >
             <Plus />
             <p className="font-medium mx-1">Create</p>
@@ -108,7 +108,7 @@ export default function PageHeader({ isDark, toggleDark }: PageHeaderProps) {
             alt="Profile"
             className="w-full h-full object-cover object-[center_11.5%] rounded-full ring-2 ring-transparent group-hover:ring-blue-400 transition-all cursor-pointer"
             />
-            <div className="fixed right-2 top-14 opacity-0 group-hover:opacity-100 transition-all duration-200 z-999 pointer-events-none">
+            <div className="fixed right-2 top-14 opacity-0 group-hover:opacity-100 transition-all duration-200 z-999 pointer-events-none max-w-[calc(100vw-1rem)]">
               <div className="bg-white dark:bg-[#282828] border border-gray-200 dark:border-[#3f3f3f] rounded-xl shadow-xl px-4 py-3 flex flex-col items-center gap-1 min-w-40">
                 {/* Avatar inside card */}
                 <img

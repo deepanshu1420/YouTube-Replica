@@ -13,6 +13,15 @@
   --color-brand-dark: #0057B7;
 }
 
+html,
+body,
+#root {
+  width: 100%;
+  overflow-x: hidden;
+  background: #0f0f0f;
+}
+
+
 
 
 

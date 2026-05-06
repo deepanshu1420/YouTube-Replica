@@ -50,11 +50,11 @@ export default function CategoryPills(props: DataProps) {
   };
 
   return (
-    <div className="relative">
+    <div className="relative overflow-hidden">
       {/* Hidden scrollbar but actually scrollable — so scrollWidth works perfectly */}
       <div
         ref={containerRef}
-        className="flex gap-3 overflow-x-auto px-8 [&::-webkit-scrollbar]:hidden" 
+        className="flex gap-3 overflow-x-auto px-2 md:px-8 scroll-smooth [&::-webkit-scrollbar]:hidden" 
         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
       >
         {props.btns.map((ele, id) => (
@@ -69,7 +69,7 @@ export default function CategoryPills(props: DataProps) {
         ))}
       </div>
       {isLeftVisible && (
-        <div className="absolute left-0 top-1/2 -translate-y-1/2 w-14 h-full flex items-center justify-start">
+        <div className="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 w-14 h-full items-center justify-start">
           <Button
           onClick={scrollLeft}
           className="w-10 h-10 rounded-full bg-white dark:bg-[#0f0f0f] shadow-md flex items-center justify-center"
@@ -79,7 +79,7 @@ export default function CategoryPills(props: DataProps) {
             </div>
           )}
           {isRightVisible && (
-            <div className="absolute right-0 top-1/2 -translate-y-1/2 w-14 h-full flex items-center justify-end">
+            <div className="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 w-14 h-full items-center justify-end">
               <Button
               onClick={scrollRight}
               className="w-10 h-10 rounded-full bg-white dark:bg-[#0f0f0f] shadow-md flex items-center justify-center"
